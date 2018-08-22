@@ -1,6 +1,5 @@
 <?php
 
-include("sesionActiva.php");
 
 ?>
 <!DOCTYPE HTML>
@@ -49,7 +48,7 @@ div.col h1{
 
 <div class="col text-center">
 	
-<h1>Contactanos! <?php echo $_SESSION['user']; ?></h1>
+<h1>Contactanos! usuario</h1>
 	<h2>Explícanos tu problema:</h2>
 
 	<form method="POST" name="formularioDeContacto" action="htdocs/llenar_DB.php"> 
